@@ -8,7 +8,9 @@
  */
 
 // Your code :
-
+const a = 67
+const b = 34
+const sub = (a, b) => a - b
 //* Begin of tests
 const assert = require('assert')
 const rand = Math.random()

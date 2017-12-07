@@ -8,7 +8,10 @@
  */
 
 // Your code :
-
+const a = 'nan'
+const b = 'beta'
+const add = (a, b) => a + b
+const ran = Math.random
 //* Begin of tests
 const assert = require('assert')
 const rand = Math.random()

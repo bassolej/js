@@ -11,7 +11,8 @@
  */
 
 // Your code :
-
+//const abs = (nombre, nombre) => Math.abs(nombre)
+const abs = a => (a > 0 ? a : -a)
 //* Begin of tests
 const assert = require('assert')
 

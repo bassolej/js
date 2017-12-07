@@ -11,6 +11,9 @@
  */
 
 // Your code :
+const min = (a, b) => (a < b ? a : b)
+
+console.log(min(4, 78))
 
 //* Begin of tests
 const assert = require('assert')

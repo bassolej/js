@@ -6,8 +6,11 @@
  *
  * @next sign
  */
-
-
+const isPositive = a => {
+  if (a > 0) {
+    return console.log(a[a])
+  }
+}
 
 //* Begin of tests
 const assert = require('assert')
@@ -20,4 +23,6 @@ assert.strictEqual(isPositive(-1), false)
 assert.strictEqual(isPositive(-0.7), false)
 assert.strictEqual(isPositive(-787823), false)
 assert.strictEqual(isPositive(0), false)
+
+function newFunction() {}
 // End of tests */

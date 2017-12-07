@@ -8,6 +8,9 @@
  */
 
 // Your code :
+const id = id => id
+
+console.log(id[0])
 
 //* Begin of tests
 const assert = require('assert')

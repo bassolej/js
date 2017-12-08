@@ -8,7 +8,13 @@
  */
 const isPositive = a => {
   if (a > 0) {
-    return console.log
+    return true
+  }
+  if (a < 0) {
+    return false
+  }
+  if (a == 0) {
+    return false
   }
 }
 

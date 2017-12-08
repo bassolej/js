@@ -8,8 +8,21 @@
  *
  * @next sentence
  */
+// your code
+const repeat = (a, b) => {
+  let count = 1
+  let resultat = ''
 
+  while (count <= b) {
+    resultat = a + resultat
+    count++
+  }
+
+  return resultat
+}
 //* Begin of tests
+
+console.log(repeat('la belle', 4))
 const assert = require('assert')
 
 assert.strictEqual(typeof repeat, 'function')

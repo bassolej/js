@@ -8,7 +8,7 @@
  */
 const isPositive = a => {
   if (a > 0) {
-    return console.log(a[a])
+    return console.log
   }
 }
 
